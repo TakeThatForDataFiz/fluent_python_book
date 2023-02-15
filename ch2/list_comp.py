@@ -1,0 +1,6 @@
+symbols = '$¢£¥€¤'
+codes = [ord(symbol) for symbol in symbols]
+print(codes)
+
+codes = (ord(symbol) for symbol in symbols)
+print(next(codes))
