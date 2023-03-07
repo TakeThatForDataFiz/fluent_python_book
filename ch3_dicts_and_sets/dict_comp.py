@@ -7,12 +7,12 @@ dial_codes = [
     (81, "Japan"),
     (234, "Nigeria"),
     (92, "Pakistan"),
-    (7, "Russia"),
+    (8, "United States"),
     (1, "United States"),
 ]
-
+print(dial_codes)
 country_dial = {country: code for code, country in dial_codes}
-
+print(country_dial)
 upper_country = {
     code: country.upper() for country, code in sorted(country_dial.items()) if code < 70
 }

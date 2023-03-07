@@ -27,4 +27,4 @@ if __name__ == "__main__":
     )
     print(get_creators(b2))
     print(get_creators(b1))
-    print(get_creators('SPAM, SPAM, SPAM'))
+    # print(get_creators('SPAM, SPAM, SPAM'))
